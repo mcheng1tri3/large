@@ -1,0 +1,38 @@
+
+
+/* ---ipad ---- */
+
+@media only screen
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape)
+{
+
+
+.title{
+font-family: Kiln Sans;
+font-size: 1.2em;
+text-align: center;
+}
+
+.bodycopy{
+font-family:Adobe Caslon Pro;
+font-size: 5em;
+text-align: center;
+}
+
+.div1{
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #FEFCE5;
+}
+
+
+.div2{
+	height:20vh;
+	width: auto;
+	background-color: #FEFCE5;
+}
+}
+
+
